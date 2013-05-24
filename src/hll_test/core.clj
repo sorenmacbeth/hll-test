@@ -22,7 +22,7 @@
 (defn test
   "6.0"
   []
-  (let [src [["foo"] ["bar"] ["baz"] ["pickle"] ["zombie"] ["winchester"]]]
+  (let [src [["foo"] ["bar"] ["baz"] ["pickle"] ["zombie"] ["winchester"] ["foo"] ["bar"]]]
     (use 'cascalog.playground)
     (bootstrap-emacs)
     (?<- (stdout)
